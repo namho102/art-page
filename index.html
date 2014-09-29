@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>A Responsive Portfolio Page</title>
+
+    <link rel="stylesheet" href="Skeleton/stylesheets/base.css">
+    <link rel="stylesheet" href="Skeleton/stylesheets/layout.css">
+    <link rel="stylesheet" href="Skeleton/stylesheets/skeleton.css">
+
+    <link rel="stylesheet/less" href="style.less" type="text/css">
+	<script src="less.min.js" type="text/javascript"></script>
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Nam Hoang</h1>
+        </div>
+    </header>
+
+    <form class="content container clearfix">
+
+        <!-- start navigation -->
+        <input class="nav-menu" id="all" type="radio" name="filter" checked="checked" />
+        <label for="all">All</label>
+
+        <input class="nav-menu" id="illustrations" type="radio" name="filter" />
+        <label for="illustrations">Illustration</label>
+
+        <input class="nav-menu" id="posters" type="radio" name="filter" />
+        <label for="posters">Posters Design</label>
+
+        <input class="nav-menu" id="typography" type="radio" name="filter" />
+        <label for="typography">Typography</label>
+
+        <input class="nav-menu" id="packaging" type="radio" name="filter" />
+        <label for="packaging">Packaging</label>
+        <!-- end navigation -->
+
+        <!--portfolio-->
+        <section class="portfolio">
+            <figure class="four columns all illustration" data-category="poster">
+                <img src="imgs/img1.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="imgs/img2.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all package" data-category="poster">
+                <img src="imgs/img3.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all typography" data-category="typography">
+                <img src="imgs/img4.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="imgs/img5.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all package" data-category="poster">
+                <img src="imgs/img6.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="imgs/img7.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all typography" data-category="typography">
+                <img src="imgs/img8.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all poster" data-category="package">
+                <img src="imgs/img9.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all typography" data-category="poster">
+                <img src="imgs/img10.jpg" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all poster" data-category="package">
+                <img src="imgs/img11.png" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+            <figure class="four columns all illustration" data-category="illustration">
+                <img src="imgs/img12.png" />
+                <figcaption>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie lobortis magna eget sagittis.</p>
+                </figcaption>
+            </figure>
+
+        </section>
+        <!--end portfolio-->
+
+    </form>
+
+    <!--footer-->
+    <footer class="footer container clearfix">
+        <div class="contact">
+            <ul>
+                <li class="contact-name">Nguyen Hoang Nam</li>
+                <li class="contact-phone">(+84) 964-105-925</li>
+                <li class="contact-email">namhoang.td09@gmail.com</li>
+            </ul>
+        </div>
+        <div class="social">
+            <p class="copyright">Copyright Nam Hoang 2014</p>
+            <ul>
+                <li class="social-dribbble">
+                    <a href="#">Dribbble</a>
+                </li>
+                <li class="social-facebook">
+                    <a href="https://www.facebook.com/oxygen102">Facebook</a>
+                </li>
+                <li class="social-twitter">
+                    <a href="https://twitter.com/NamYD1">Twitter</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
